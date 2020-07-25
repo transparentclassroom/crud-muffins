@@ -1,0 +1,28 @@
+{
+  "name": "crud-muffins",
+  "version": "0.0.1",
+  "description": "A half-baked solution to UI CRUD operations.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --presets=@babel/env --out-dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewSouthpaw/crud-muffins.git"
+  },
+  "keywords": [
+    "crud"
+  ],
+  "author": "Andrew Smith <andrewsmith@alumni.stanford.edu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AndrewSouthpaw/crud-muffins/issues"
+  },
+  "homepage": "https://github.com/AndrewSouthpaw/crud-muffins#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4"
+  }
+}
