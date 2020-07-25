@@ -2,9 +2,6 @@
 
 <img src="https://i.imgur.com/MPbwMBs.jpg" width="100">
 
-<br>
-<br>
-
 A half-baked solution to UI CRUD operations.
 
 ## Motivation
