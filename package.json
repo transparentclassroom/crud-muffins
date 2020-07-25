@@ -1,6 +1,6 @@
 {
   "name": "crud-muffins",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A half-baked solution to UI CRUD operations.",
   "main": "dist/index.js",
   "scripts": {
