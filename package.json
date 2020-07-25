@@ -1,6 +1,6 @@
 {
   "name": "crud-muffins",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A half-baked solution to UI CRUD operations.",
   "main": "dist/index.js",
   "scripts": {
@@ -12,7 +12,8 @@
     "url": "git+https://github.com/AndrewSouthpaw/crud-muffins.git"
   },
   "keywords": [
-    "crud"
+    "crud",
+    "react"
   ],
   "author": "Andrew Smith <andrewsmith@alumni.stanford.edu>",
   "license": "MIT",
