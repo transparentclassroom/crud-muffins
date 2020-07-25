@@ -48,3 +48,9 @@ const {
 ```
 
 Working demo example to come.
+
+## Credits
+
+Image credit: @zspencer
+
+Code collaborator: @zspencer 
