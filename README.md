@@ -51,6 +51,6 @@ Working demo example to come.
 
 ## Credits
 
-Image credit: @zspencer
+Image credit: [@zspencer](https://github.com/zspencer)
 
-Code collaborator: @zspencer 
+Code collaborator: [@zspencer](https://github.com/zspencer) 
