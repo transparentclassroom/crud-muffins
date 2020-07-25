@@ -2,7 +2,7 @@
   "name": "crud-muffins",
   "version": "0.0.1",
   "description": "A half-baked solution to UI CRUD operations.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "./node_modules/.bin/babel src --out-dir dist",
     "test": "echo \"Error: no test specified\" && exit 1"

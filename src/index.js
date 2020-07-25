@@ -47,6 +47,7 @@ export const useCrudMuffinsUI = (ui, setUi) => {
 
 export const useCrudMuffins = (api, route, items, setItems, ui, setUi, options) => {
   const { loadPostProcessor = x => x } = options
+
   // we need both right now because sometimes we change the order of the arguments
   const updateItem = item => rUpdate(findIndexById(item.id, items), item, items)
   const removeItem = id => removeById(id, items)
