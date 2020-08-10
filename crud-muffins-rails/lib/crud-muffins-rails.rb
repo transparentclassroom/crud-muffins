@@ -1,4 +1,5 @@
 require_relative "crud-muffins-rails/version"
+require 'active_support'
 
 module CrudMuffins
   module Rails
