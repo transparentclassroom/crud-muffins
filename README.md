@@ -14,6 +14,16 @@ Because I got super tired of writing the basic state management of CRUD operatio
 1. Deleting an item
 1. ...and all the UI state associated with it (e.g. `isEditing`, `isSaving`, etc.)
 
+## Setup
+
+```sh
+$ yarn add crud-muffins
+```
+
+**This package is not transpiled and written with modern JS syntax**. You can add this package to the list of `node_modules` you transpile manually.
+
+Why? My current understanding is that it makes code bundles smaller overall when there's only *one* transpilation, as opposed to each module transpiling in its own context. Happy to be convinced otherwise!
+
 ## Usage
 
 The API will likely change quite a lot over the next several iterations. It's designed to work with any UI library, e.g. React, you just need to pass in the controls for reading/setting state.

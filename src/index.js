@@ -12,32 +12,36 @@ export const useCrudMuffinsUI = (ui, setUi) => {
   const setSavingNew = (value) => setSaving(value, '_new')
 
   const update = async (id, cb) => {
-    // TODO add try/catch
     setSaving(true, id)
 
-    const item = await cb()
-
-    setSaving(false, id)
-    setEditing(false, id)
-    return item
+    try {
+      const item = await cb()
+      setEditing(false, id)
+      return item
+    } finally {
+      setSaving(false, id)
+    }
   }
 
   const create = async (cb) => {
-    // TODO add try/catch
     setSavingNew(true)
-    const item = await cb()
-    setSavingNew(false)
-    return item
+    try {
+      const item = await cb()
+      return item
+    } finally {
+      setSavingNew(false)
+    }
   }
 
   const destroy = async (id, cb) => {
-    // TODO add try/catch
     setSaving(true, id)
 
-    await cb()
-
-    setSaving(false, id)
-    setEditing(false, id)
+    try {
+      await cb()
+      setEditing(false, id)
+    } finally {
+      setSaving(false, id)
+    }
   }
 
   return {

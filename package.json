@@ -1,6 +1,6 @@
 {
   "name": "crud-muffins",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "A half-baked solution to UI CRUD operations.",
   "main": "dist/index.js",
   "scripts": {
@@ -24,7 +24,7 @@
   "devDependencies": {
     "@babel/cli": "^7.10.5",
     "@babel/core": "^7.10.5",
-    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-env": "^7.12.1",
     "babel-plugin-ramda": "^2.0.0"
   },
   "dependencies": {
