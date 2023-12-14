@@ -1,3 +1,7 @@
+Forked on 12/14/2023 so that we can make minor changes for Rails 7 compatibility
+
+---
+
 # crud-muffins
 
 <img src="https://i.imgur.com/MPbwMBs.jpg" width="100">
